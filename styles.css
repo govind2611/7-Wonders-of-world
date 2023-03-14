@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  padding: 0 25px;
+}
+.container h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+.seven-wonders-item {
+  display: flex;
+  padding: 25px 15px;
+}
+.seven-wonders-item:nth-child(even) {
+  background-color: #f0f0f0;
+}
+.seven-wonders-item .img-content {
+  width: 40%;
+  margin-right: 20px;
+}
+.seven-wonders-item .img-content .img {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.seven-wonders-item .img-content .img img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.seven-wonders-item .text-content h2 {
+  color: blue;
+  margin-bottom: 15px;
+}
